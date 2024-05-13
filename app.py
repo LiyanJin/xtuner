@@ -18,6 +18,6 @@ def chat(message,history):
 gr.ChatInterface(chat,
                  title="InternLM2-Chat-1.8B",
                 description="""
-InternLM2-xtuner is mainly developed by jin.  
+InternLM2-Chat-1.8B is mainly developed by jin.  
                  """,
                  ).queue(1).launch()
